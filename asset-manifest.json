@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.460f2295.css",
-    "main.js": "/portfolio/static/js/main.17a34e1a.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/Python.png": "/portfolio/static/media/Python.c44b9b809ebf766cbb4f.png",
-    "static/media/nbatrackerimage.png": "/portfolio/static/media/nbatrackerimage.0c52307e9cc14046ed68.png",
-    "static/media/cryptoproject.png": "/portfolio/static/media/cryptoproject.6a0136c0df4ebd240e77.png",
-    "static/media/nbaproject.png": "/portfolio/static/media/nbaproject.46e3e77689a08171fe3d.png",
-    "static/media/Resume.pdf": "/portfolio/static/media/Resume.5035f6a4827206c1001a.pdf",
-    "static/media/person.png": "/portfolio/static/media/person.976fe3c2264c010292dd.png",
-    "static/media/ProjectPlaceholder2.png": "/portfolio/static/media/ProjectPlaceholder2.8a628bd55fdb3f74d7c3.png",
-    "static/media/C++.png": "/portfolio/static/media/C++.053a898d752aef72651e.png",
-    "static/media/msuspartan.png": "/portfolio/static/media/msuspartan.d798e70bd81992be8c81.png",
-    "static/media/nodejs.png": "/portfolio/static/media/nodejs.c6649cb118c1ede849ad.png",
-    "static/media/ProjectPlaceholder.png": "/portfolio/static/media/ProjectPlaceholder.435a007f78e0f36dd624.png",
-    "static/media/React.png": "/portfolio/static/media/React.2a0cac33f155e4a27216.png",
-    "static/media/linkedinblack.webp": "/portfolio/static/media/linkedinblack.531b05d8201c08a74eca.webp",
-    "index.html": "/portfolio/index.html",
-    "main.460f2295.css.map": "/portfolio/static/css/main.460f2295.css.map",
-    "main.17a34e1a.js.map": "/portfolio/static/js/main.17a34e1a.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.460f2295.css",
+    "main.js": "/static/js/main.84b72030.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/Python.png": "/static/media/Python.c44b9b809ebf766cbb4f.png",
+    "static/media/nbatrackerimage.png": "/static/media/nbatrackerimage.0c52307e9cc14046ed68.png",
+    "static/media/cryptoproject.png": "/static/media/cryptoproject.6a0136c0df4ebd240e77.png",
+    "static/media/nbaproject.png": "/static/media/nbaproject.46e3e77689a08171fe3d.png",
+    "static/media/Resume.pdf": "/static/media/Resume.5035f6a4827206c1001a.pdf",
+    "static/media/person.png": "/static/media/person.976fe3c2264c010292dd.png",
+    "static/media/ProjectPlaceholder2.png": "/static/media/ProjectPlaceholder2.8a628bd55fdb3f74d7c3.png",
+    "static/media/C++.png": "/static/media/C++.053a898d752aef72651e.png",
+    "static/media/msuspartan.png": "/static/media/msuspartan.d798e70bd81992be8c81.png",
+    "static/media/nodejs.png": "/static/media/nodejs.c6649cb118c1ede849ad.png",
+    "static/media/ProjectPlaceholder.png": "/static/media/ProjectPlaceholder.435a007f78e0f36dd624.png",
+    "static/media/React.png": "/static/media/React.2a0cac33f155e4a27216.png",
+    "static/media/linkedinblack.webp": "/static/media/linkedinblack.531b05d8201c08a74eca.webp",
+    "index.html": "/index.html",
+    "main.460f2295.css.map": "/static/css/main.460f2295.css.map",
+    "main.84b72030.js.map": "/static/js/main.84b72030.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.460f2295.css",
-    "static/js/main.17a34e1a.js"
+    "static/js/main.84b72030.js"
   ]
 }
