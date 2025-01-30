@@ -16,7 +16,7 @@ export const SocialsBar = () => {
               rel="noopener noreferrer"
             >
               <button className="primary social-btn px-4">
-                <img src={github} alt="Logo" className="social-img pe-3 pb-1" />
+                <img src={github} alt="Github Logo" className="social-img pe-3 pb-1" />
                 GitHub
               </button>
             </a>
@@ -29,7 +29,7 @@ export const SocialsBar = () => {
               rel="noopener noreferrer"
             >
               <button className="primary social-btn px-4">
-                <img src={linkedin} alt="Logo" className="linkedin pe-3 pb-1" />
+                <img src={linkedin} alt="Linkedin Logo" className="linkedin pe-3 pb-1" />
                 LinkedIn
               </button>
             </a>
@@ -38,7 +38,7 @@ export const SocialsBar = () => {
           <div className="col">
             <a href={resumePdfUrl} target="_blank" rel="noopener noreferrer">
               <button className="primary social-btn px-4">
-                <img src={resume} alt="Logo" className="social-img pe-3 pb-1" />
+                <img src={resume} alt="Resume Logo" className="social-img pe-3 pb-1" />
                 Resume
               </button>
             </a>

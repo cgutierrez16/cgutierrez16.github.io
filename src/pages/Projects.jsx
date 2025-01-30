@@ -1,6 +1,6 @@
 import React from "react";
-import ProjectPlaceholder from "../images/nbaproject.png";
-import ProjectPlaceholder2 from "../images/cryptoproject.png";
+import nbaThumbnail from "../images/basketball.png";
+import lenguaThumbnail from "../images/green-tree.png";
 import { Link } from "react-router-dom";
 
 export const Projects = () => {
@@ -14,7 +14,7 @@ export const Projects = () => {
           <div className="col-sm-5 proj-card white project-rounded pb-5">
             <div className="glow-proj-page"></div>
             <div className="glow-proj-page2"></div>
-            <img src={ProjectPlaceholder} class="py-4" alt="..." />
+            <img src={nbaThumbnail} class="py-4 project-page-thumbnails" alt="NBA tracker thumbnail" />
             <h5 class="text-start ps-4" style={{ fontSize: "30px" }}>
               NBA Tracking Website
             </h5>
@@ -35,23 +35,28 @@ export const Projects = () => {
           </div>
 
           <div class="col-sm-5 proj-card white project-rounded">
-            <img src={ProjectPlaceholder2} class="py-4" alt="..." />
+            <img
+              src={lenguaThumbnail}
+              class="py-4 project-page-thumbnails"
+              alt="Lengua thumbnail"
+            />
             <h5 class="text-start ps-4" style={{ fontSize: "30px" }}>
-              Crypto Trend Tracker
+              Lengua
             </h5>
             <p
               class="text-start ps-4 project-desc text-op py-3"
               style={{ fontSize: "18px" }}
             >
-              CryptoTrackr is a comprehensive platform designed to provide users
-              with the most up-to-date and accurate information on
-              cryptocurrency prices and trends.
+              Lengua is an app that aims to put a unique spin on traditional
+              language learning apps. Currently a project that I work on when I
+              find freetime from school work. Click below to read more about my
+              inspiration, future plans, and more!
             </p>
             <Link
-              to="/projects/crypto-tracker"
+              to="/projects/lengua"
               className="nav-link active text-start ps-4"
             >
-              <button className="seemore-btn primary">Learn More</button>
+              <button className="seemore-btn primary mb-4">Learn More</button>
             </Link>
           </div>
         </div>

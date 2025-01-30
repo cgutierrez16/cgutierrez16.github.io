@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import person from "../images/person.png";
+import person from "../images/propic.jpeg";
 import msu from "../images/msuspartan.png";
 
 export const HomeHeader = () => {
@@ -23,7 +23,6 @@ export const HomeHeader = () => {
               </h3>
           </div>
           <div className="col-sm-5 align-content-center position-relative">
-            <div className="circle"></div>
             <img src={person} alt="My Image" className="header-home-picture" />
           </div>
         </div>

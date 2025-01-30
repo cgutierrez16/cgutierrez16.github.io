@@ -1,9 +1,10 @@
 import React from "react";
 import ProjectPlaceholder from "../images/ProjectPlaceholder.png";
-import ProjectPlaceholder2 from "../images/cryptoproject.png";
-import nbaimage from "../images/nbaproject.png";
+import spanishproj from "../images/SpanishProj.png";
+import nbaimage from "../images/NBAProj.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export const HomeProjects = () => {
   return (
@@ -21,7 +22,46 @@ export const HomeProjects = () => {
             </div>
           </div>
         </div>
-        {/* First Project */}
+
+        {/* Lengua */}
+        <div className="container white my-5 project-border proj-card">
+          <div className="row py-4">
+            <div className="col-sm-6">
+              <img
+                src={spanishproj}
+                alt="Lengua Screenshot"
+                className="project-picture"
+              />
+            </div>
+            <div className="col-sm-6">
+              <h1 className="project-title text-start pt-4">Lengua</h1>
+              <p
+                className="text-start pt-4 project-desc text-op"
+                style={{ fontSize: "20px" }}
+              >
+                Language learning apps have gotten stale. It can feel like many
+                of the language learning apps out there are just carbon copies
+                of eachother. Learning methods are not meant to be "one size
+                fits all", which is where this project comes in. The goal of
+                Lengua is to use a combination of language learning techniques
+                not seen in other apps to devleop conversational fluency like
+                never before.
+              </p>
+              <div className="d-flex justify-content-start pt-2">
+                <Link
+                  to="/projects/lengua"
+                  className="nav-link active text-start"
+                >
+                  <button className="seemore-btn primary">
+                    See More <FontAwesomeIcon icon={faArrowRight} />
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* NBA Tracker */}
         <div className="container white mb-5 project-border proj-card">
           <div className="glow-nba-project-home"></div>
           <div className="row align-items-center py-4">
@@ -42,50 +82,22 @@ export const HomeProjects = () => {
               </p>
 
               <div className="d-flex justify-content-start ps-4 pt-2">
-                <button className="seemore-btn primary">
-                  See More <FontAwesomeIcon icon={faArrowRight} />
-                </button>
+                <Link
+                  to="/projects/nbatracker"
+                  className="nav-link active text-start"
+                >
+                  <button className="seemore-btn primary">
+                    See More <FontAwesomeIcon icon={faArrowRight} />
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="col-sm-6">
               <img
                 src={nbaimage}
-                alt="Placeholder Image"
-                className="homenbapic"
+                alt="Tracker.io Screenshot"
+                className="project-picture"
               />
-            </div>
-          </div>
-        </div>
-
-        {/* Second Project */}
-        <div className="container white my-5 project-border proj-card">
-          <div className="row py-4">
-            <div className="col-sm-6">
-              <img
-                src={ProjectPlaceholder2}
-                alt="Placeholder Image"
-                className="homenbapic"
-              />
-            </div>
-            <div className="col-sm-6">
-              <h1 className="project-title text-start pt-4">
-                Crypto Trend Tracker
-              </h1>
-              <p
-                className="text-start pt-4 project-desc text-op"
-                style={{ fontSize: "20px" }}
-              >
-                CryptoTrackr is a comprehensive platform designed to provide
-                users with up-to-date information on cryptocurrency prices and
-                trends. With a user-friendly interface and intuitive design,
-                CryptoTrackr offers real-time tracking of popular
-                cryptocurrencies such as Bitcoin, Ethereum, Litecoin, and more.
-              </p>
-              <div className="d-flex justify-content-start pt-2">
-                <button className="seemore-btn primary">
-                  See More <FontAwesomeIcon icon={faArrowRight} />
-                </button>
-              </div>
             </div>
           </div>
         </div>

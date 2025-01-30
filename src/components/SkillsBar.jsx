@@ -1,8 +1,13 @@
 import React from "react";
 import nodejs from "../images/nodejs.png";
-import react from '../images/React.png'
-import python from '../images/Python.png'
-import cplus from '../images/C++.png'
+import react from "../images/React.png";
+import python from "../images/Python.png";
+import cplus from "../images/C++.png";
+
+/*
+  THIS WAS A FEATURE AT ONE POINT IN TIME THAT I LATER DECIDED NOT TO 
+  INCLUDE IN THE FINAL PRODUCT
+*/
 
 export const SkillsBar = () => {
   return (

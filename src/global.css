@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nothing+You+Could+Do&display=swap');
+
 .App {
   font-family: 'source-serif-pro';
 }
@@ -33,10 +35,28 @@
 }
 
 .header-home-picture {
-  height: 300px;
+  height: 415px;
   width: auto;
   position: relative; /* Position image relatively to its container */
   z-index: 1;
+  border-radius: 50%;    /* Makes the image circular */
+  object-fit: cover; 
+  box-shadow: 0 0 15px #9FCFFC, 0 0 0px #9FCFFC, 0 0 0px #9FCFFC; /* Glow effect */
+
+}
+
+.about-me-pic {
+  height: 415px;
+  width: auto;
+  position: relative; /* Position image relatively to its container */
+  z-index: 1;
+  border-radius: 50%;    /* Makes the image circular */
+  object-fit: cover; 
+}
+
+.about-icon {
+  height: 200px;
+  width: auto;
 }
 
 .text-logo {
@@ -133,9 +153,9 @@
   border-radius: 20px;
 }
 
-.homenbapic {
+.project-picture {
   height: 425px;
-  width: auto;
+  width: 600px;
   border-radius: 20px;
 }
 
@@ -172,6 +192,13 @@
   border-radius: 15px;
   font-size: 20px;
 }
+
+.project-page-thumbnails {
+  width: 400px;
+  height: auto;
+}
+
+/* Glow Styling */
 
 .glow-home-header {
   position: absolute;
@@ -325,9 +352,10 @@ nav {
 
 .logo {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 46px;
   font-weight: bold;
+  font-family: "Hurricane";
 }
 
 .project-rounded {
