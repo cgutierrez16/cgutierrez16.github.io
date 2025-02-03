@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://cgutierrez16.github.io/portfolio/static/css/main.09af3cae.css",
-    "main.js": "https://cgutierrez16.github.io/portfolio/static/js/main.d1256e57.js",
+    "main.js": "https://cgutierrez16.github.io/portfolio/static/js/main.a5e852d6.js",
     "static/js/453.1407b060.chunk.js": "https://cgutierrez16.github.io/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/NBAProj.png": "https://cgutierrez16.github.io/portfolio/static/media/NBAProj.8244d0a920081fbb60e6.png",
     "static/media/lengua2.png": "https://cgutierrez16.github.io/portfolio/static/media/lengua2.0f4117a1113385363a3e.png",
@@ -25,11 +25,11 @@
     "static/media/linkedinblack.webp": "https://cgutierrez16.github.io/portfolio/static/media/linkedinblack.531b05d8201c08a74eca.webp",
     "index.html": "https://cgutierrez16.github.io/portfolio/index.html",
     "main.09af3cae.css.map": "https://cgutierrez16.github.io/portfolio/static/css/main.09af3cae.css.map",
-    "main.d1256e57.js.map": "https://cgutierrez16.github.io/portfolio/static/js/main.d1256e57.js.map",
+    "main.a5e852d6.js.map": "https://cgutierrez16.github.io/portfolio/static/js/main.a5e852d6.js.map",
     "453.1407b060.chunk.js.map": "https://cgutierrez16.github.io/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09af3cae.css",
-    "static/js/main.d1256e57.js"
+    "static/js/main.a5e852d6.js"
   ]
 }
