@@ -27,7 +27,7 @@ export const Projects = () => {
               of APIs for data retrival.
             </p>
             <Link
-              to="/projects/nbatracker"
+              to="/portfolio/projects/nbatracker"
               className="nav-link active text-start ps-4"
             >
               <button className="seemore-btn primary">Learn More</button>
@@ -53,7 +53,7 @@ export const Projects = () => {
               inspiration, future plans, and more!
             </p>
             <Link
-              to="/projects/lengua"
+              to="/portfolio/projects/lengua"
               className="nav-link active text-start ps-4"
             >
               <button className="seemore-btn primary mb-4">Learn More</button>

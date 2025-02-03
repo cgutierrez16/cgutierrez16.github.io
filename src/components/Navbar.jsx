@@ -5,19 +5,19 @@ export const Navbar = () => {
   return (
     <nav className="base white">
       <div>
-        <Link to="/" class="hurricane-regular logo ps-4">
+        <Link to="/portfolio" class="hurricane-regular logo ps-4">
           CG
         </Link>
       </div>
       <ul class="nav-links">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/portfolio">Home</Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/portfolio/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/about">About Me</Link>
+          <Link to="/portfolio/about">About Me</Link>
         </li>
       </ul>
     </nav>

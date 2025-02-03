@@ -31,7 +31,7 @@ export const HomeAbout = () => {
             </p>
 
             <div className="d-flex justify-content-start">
-              <Link to="/about">
+              <Link to="/portfolio/about">
                 <button className="keepreading-btn primary">
                   Keep Reading <FontAwesomeIcon icon={faArrowRight} />
                 </button>

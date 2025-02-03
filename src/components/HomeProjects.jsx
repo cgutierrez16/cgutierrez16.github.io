@@ -49,7 +49,7 @@ export const HomeProjects = () => {
               </p>
               <div className="d-flex justify-content-start pt-2">
                 <Link
-                  to="/projects/lengua"
+                  to="/portfolio/projects/lengua"
                   className="nav-link active text-start"
                 >
                   <button className="seemore-btn primary">
@@ -83,7 +83,7 @@ export const HomeProjects = () => {
 
               <div className="d-flex justify-content-start ps-4 pt-2">
                 <Link
-                  to="/projects/nbatracker"
+                  to="/portfolio/projects/nbatracker"
                   className="nav-link active text-start"
                 >
                   <button className="seemore-btn primary">
